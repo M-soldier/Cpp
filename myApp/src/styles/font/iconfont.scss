@@ -1,0 +1,38 @@
+@font-face {font-family: "moyufed";
+  src: url('data:application/x-font-woff2;charset=utf-8;base64,d09GMgABAAAAAAUoAAsAAAAAC+QAAATcAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAHEIGVgCDNgqKcIhxATYCJAMcCxAABCAFhGEHVxsMCsiOUKms67K8ymo//5v658JFCiGV1ISKM3GPzuPLIjBCKkq2p2RiluaZf6lKeKhu/NtuL+BAjiywJiypiSJuEko8iuzLnzpUzefuPQFe53Ea81fW3hTACAZju3PqAirQooJVsV6iglhMpHPXSUn97wzg7QAB4FSToHH+UiuwMNqFAKAzFHQDWzDDc/gIq6OFUxPQDRS2u5F4FgD2hK9HfxgdLACBKkB3WnnM88HMH3xeST2rw/qig7E9JwB0zgIgAUgAMECr6HYiEyQFwkkMz8cYwc9rNuu4FEe7CoBGwUhE54+HeiBiAnRmaPA5o8howAgUaAcjYNACDIEmMMyjFap7Qxh3ihlAM0AfANGAmBSSGGbmUoQYRJPJBPIYBjcxZWcwpKWwpqWlrPPgReNyscm9EmdcBTjCd6PkEGfnH3utFp99da758dfrqAtvLOBRMpNKl4EQ9lYKoaf53FQGkT2GyxhKZpqFS2n9KretH+vNu+vFSvrUS+Py732lhjn9clcyw/PALZwxhBCPOFMkYxMjdC8+hZPkan+dSoNvtlqPlCDHkdPFyI4OcwevAujpTb8J26F0ke3u11qsB48WuU49O95+2Ci03vV8zbojx4vtQ29McBzJlDhuTfUeH2ry2I8/YNxXat188erJU0U259FTjZf4VLPD5q5y5Uz5WseRM5sPHi1z2S8bDdZ1J1a+gfdKpsJhO5ZudH98/+JlFcsWj8OylOUGS2wWNVbEStK417FPWbyYWc1Yu/IrOq+fZbmh8QZilhR4u6/fY7T8apCxiou6s1xwim+I7vdaYMNPNGlL1Ctj6cnMGKV+8xxmMj13/N71Qr6wrqen+791Qp5Z65neoxsQ/fZ1PcOn/f9T10/8Dpc5T1h3oF4KY8+6lQJvR1eP5yVVTt0HafmrvCfd/wTX5jyIhI8FcU+Pq582yN9G3R/93RYUzT15933Hd1a34QmhER/0vl75um0YEZrQhqt3Hq993MmiuQv+bnxpW1T+tm4uzHi/9345J6cp/uP+JjXu99L0EnO+fP267x9+WBIafuOnlljYL/q4kbWUTOV/a5AEqfn763Iff+ZMrSR0UNOMhCTUnnlmWJjTXPeoEv+BHcqjddn7oQ8AQPY+8j9yMIh18hcy0ZX9M9uRLKn/kjbBmOvJjzblTv2N5f9csbefGR8rzXKVACwCLK383RgT5nD+1IzVZGFyOMrIlpOC/DcWMDYxJwkAHMcAskD+Au9vT1/0WUSoy4oyQMBKQMJ6gGGbiMIbJaIxpoo47eaczbOIIaHMAYA2yYYIMcsAAt4PSPgEwPA1EaXYJyKa2V8ijj2YS/KaYgM3R/W7Nb9P9HSLIa8cC+gzNS4qdycCft9qfzARcatjld9m96vxkBwTRw0fWckt8Mf86vpHxDuCozUtIAZUOSrO39Dd/JGILCqqvNXv1YZv0TRl8ogRAemFhnvlKHDmUPm5afx8RB7dRCFespiAK9ZwouSxOyGwDFqtFgtKiHBT5REFZFdpVVxoK/OJRhlu5HywgMSWGXkMzXEdgkbT2BkgGqSqbJRo/lFJgSKdtEykyGhrs9xLM9yWNZKKyUbwtMCyZPjZsegjjAAT0BWYIBCJMKIQjRjEAt6vNKatxDAZB0KRKC3LUnHNrdKQwgQA') format('woff2');
+}
+
+.moyufed {
+  display: inline-block;
+  /* 以下的 font 与上面 @font-face 的 font-family 要一致*/
+  font: normal normal normal 14px/1 moyufed;
+  font-size: inherit;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.moyufed-date:before {
+  content: "\e605";
+}
+
+.moyufed-date-o:before {
+  content: "\e604";
+}
+
+.moyufed-film:before {
+  content: "\e603";
+}
+
+.moyufed-film-o:before {
+  content: "\e602";
+}
+
+.moyufed-star:before {
+  content: "\e601";
+}
+
+.moyufed-star-o:before {
+  content: "\e600";
+}
+

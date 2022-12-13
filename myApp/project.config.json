@@ -1,0 +1,38 @@
+{
+	"miniprogramRoot": "dist/",
+	"projectname": "myapp",
+	"description": "This is a app that helps us memorize words!",
+	"appid": "wxcd62bff38604d1af",
+	"setting": {
+		"urlCheck": true,
+		"scopeDataCheck": false,
+		"coverView": true,
+		"es6": false,
+		"postcss": false,
+		"compileHotReLoad": false,
+		"preloadBackgroundData": false,
+		"minified": false,
+		"autoAudits": false,
+		"newFeature": false,
+		"uglifyFileName": false,
+		"uploadWithSourceMap": true,
+		"useIsolateContext": true,
+		"nodeModules": false,
+		"enhance": false,
+		"useCompilerModule": true,
+		"userConfirmedUseCompilerModuleSwitch": false,
+		"showShadowRootInWxmlPanel": true,
+		"checkInvalidKey": true,
+		"checkSiteMap": true,
+		"babelSetting": {
+			"ignore": [],
+			"disablePlugins": [],
+			"outputPath": ""
+		}
+	},
+	"compileType": "miniprogram",
+	"simulatorType": "wechat",
+	"simulatorPluginLibVersion": {},
+	"libVersion": "2.8.3",
+	"condition": {}
+}
